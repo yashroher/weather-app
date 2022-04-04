@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather</title>
+</head>
+<link rel="stylesheet" type="text/css" href="/css/style.css">
+
+<body>
+    <div class="main-content">
+{{>header}}
+<p>Use this site to know the weather</p>
+<form>
+    <input placeholder="Loaction">
+    <button>search</button>
+</form>
+<p style="color: black;" id="message-1"></p>
+<p style="color: black;" id="message-2"></p>
+{{!-- To make sure that the js file runs only after the file has loaded --}}
+<script type="text/javascript" src="/javascript/app.js"></script>
+    </div>
+{{>footer}}
+
+ 
+</body>
+</html>

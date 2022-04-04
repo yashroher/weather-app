@@ -1,0 +1,3 @@
+express is a web framework made in NodeJs
+.get is used to send something to the user
+.send can take anything like an array,array of JSON, text, html attribute
